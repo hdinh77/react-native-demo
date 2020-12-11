@@ -16,6 +16,7 @@ target 'reactnativedemo' do
   # you should disable these next few lines.
   use_flipper!
   pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+  pod 'GoogleMaps'
 
   post_install do |installer|
     flipper_post_install(installer)
